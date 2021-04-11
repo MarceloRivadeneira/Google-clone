@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration-line: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header-container{
+    width: 100%;
+}
+
+.header-container__nav {
+    display: flex;
+    height: 70px;
+    justify-content: flex-end;
+}
+
+.header-container__nav_list {
+    display: flex;
+    width: 250px;
+    height: auto;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    color: black;
+}
+
+.header-container__nav_list .header-container__nav_list-icon{
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/17/17704.svg?token=exp=1617981050~hmac=dcd7c22dfc38dff46cb50805b8261f09");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.header-container__nav_list img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.main-container .main-container__image{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 115px;
+    margin-bottom: 45px;
+}
+
+.main-container__input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-container__input .main-container__input_box{
+width: 525px;
+/* height: 30px; */
+border-radius: 100px;
+border: 1px solid #e7e7e7 ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main .main-container__input_box input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-container__input_box:hover{
+    box-shadow: 0 3px 6px #0000002e;
+    border: #d3d3d3
+}
+
+.main-container__input .main-container__input_icon{
+    background-image: url("/images/SVG/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    margin-right: 7px;
+}
+
+.main-container__input .main-container__input_icon-two{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.main-container .main-container__buttons{
+    display: flex;
+    width: 530px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main-container__buttons button{
+    border: 0;
+    margin: 0 10px;
+    background-color: #f5f5f5;
+    color: #7a7a7a;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+}
+
+.main-container__buttons button:hover{
+    border: 1px solid rgb(212, 212, 212);
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+    box-shadow: 0 1px 2px #0000002e;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color:#f5f5f5;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #d4d4d4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+footer .footer-left {
+    justify-content: flex-start;
+}
+
+footer .footer-right {
+    justify-content: flex-end;
+}
+
+footer ul li a{
+    margin: 10px;
+    color:#7a7a7a ;
+    font-size: 0.8rem;
+}
