@@ -93,7 +93,7 @@ main .main-container__input_box:hover{
 }
 
 .main-container__input .main-container__input_icon{
-    background-image: url("images/SVG/search.svg");
+    background-image: url("../images/SVG/search.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
